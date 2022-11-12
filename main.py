@@ -1,8 +1,8 @@
-import unittest # Библиотека для составления Тест-кейсов
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys # Эмуляция действий мыши
-from time import sleep
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys # Эмуляция действий клавиатуры
+import unittest # Библиотека для составления Тест-кейсов
+from time import sleep
 
 driver = webdriver.Chrome()
 driver.get("http://tutorialsninja.com/demo/")
